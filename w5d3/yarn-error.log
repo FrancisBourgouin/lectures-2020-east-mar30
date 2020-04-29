@@ -1,0 +1,53 @@
+Arguments: 
+  /home/francis/.nvm/versions/node/v10.16.3/bin/node /home/francis/.nvm/versions/node/v10.16.3/bin/yarn add pg
+
+PATH: 
+  /home/francis/.rvm/gems/ruby-2.7.0/bin:/home/francis/.rvm/gems/ruby-2.7.0@global/bin:/home/francis/.rvm/rubies/ruby-2.7.0/bin:/home/francis/.nvm/versions/node/v10.16.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/110/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile64/:/mnt/c/Program Files (x86)/Common Files/Acronis/FileProtector/:/mnt/c/Program Files (x86)/Common Files/Acronis/FileProtector64/:/mnt/c/Program Files (x86)/Common Files/Acronis/SnapAPI/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Francis/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Francis/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/FAHClient:/mnt/c/Users/Francis/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Francis/AppData/Local/Microsoft/WindowsApps:/home/francis/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/francis/projects/lectures-2020-east-mar30/w5d3/package.json: Unexpected token } in JSON at position 225
+      at JSON.parse (<anonymous>)
+      at /home/francis/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/francis/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/francis/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "dev": "nodemon server.js",
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "express-validator": "^6.4.0",
+      "pg": "^7.18.2"
+    },
+    "devDependencies": {
+      "dotenv": "^8.0.0",
+      "nodemon": "^1.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
