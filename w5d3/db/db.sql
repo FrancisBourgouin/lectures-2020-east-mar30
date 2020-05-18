@@ -14,8 +14,9 @@ CREATE TABLE residents(
     name TEXT NOT NULL,
     birthday DATE NOT NULL,
     has_vehicle BOOLEAN NOT NULL,
-    island_id int REFERENCES islands(id)
+    island_id INT REFERENCES islands(id)
 );
+
 
 INSERT INTO islands (name, location, size, turnip_price) VALUES ('Raftel', 'North Hemisphere', 'Big', 139); 
 INSERT INTO islands (name, location, size, turnip_price) VALUES ('Montoya', 'North Hemisphere', 'Medium', 339); 
